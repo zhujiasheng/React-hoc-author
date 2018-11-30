@@ -1,0 +1,92 @@
+/* reset */
+
+*{
+    padding:0;
+    margin:0;
+}
+
+body,div,p,span,form,iframe,table,td,th,input,textarea,button,label,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6 {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size:12px;
+    line-height: 1.5;
+    font-family: BlinkMacSystemFont,PingFang SC,Microsoft YaHei,Arial,san francisco,sans-serif;
+    color: #434343;
+}
+input,button,table,tr,td{
+    border:none;
+    padding:0;
+    margin:0;
+    outline:none;
+}
+ul,li {
+    list-style: none;
+}
+ul,ol,li,dl{
+    list-style-type:none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight:normal;
+}
+img{
+    border:none;
+}
+input,textarea,select{
+    outline:none;
+}
+textarea{
+    resize:none;
+}
+em,i,dfn,cite,strong,small{
+    font-style:normal;
+}
+fieldset,button,input,select,option{
+    vertical-align:middle;
+}
+table{
+    border-collapse:collapse;
+    border-spacing:0
+}
+
+/*一般链接*/
+a {
+    text-decoration: none;
+    color: #555;
+}
+a:hover {
+    color: #c21e25;
+}
+a:link,a:visited{
+    text-decoration:none;
+}
+a:active{
+    color:#c21e25;
+}
+a{
+    cursor: pointer;
+}
+.clear{
+    clear: both;
+}
+em{
+    font-style: normal;
+}
+.displayNone{
+    display: none;
+}
+img[src=""],img:not([src]){
+    opacity: 0;
+}
+
+@font-face {
+  font-family: "iconfont"; /* project id 211629 */
+  src: url("http://at.alicdn.com/t/font_vxu5hysaq4asv2t9.eot");
+  src: url("http://at.alicdn.com/t/font_vxu5hysaq4asv2t9.eot?#iefix")
+  format("embedded-opentype"),
+  url("http://at.alicdn.com/t/font_vxu5hysaq4asv2t9.woff") format("woff"),
+  url("http://at.alicdn.com/t/font_vxu5hysaq4asv2t9.ttf") format("truetype"),
+  url("http://at.alicdn.com/t/font_vxu5hysaq4asv2t9.svg#iconfont")
+  format("svg");
+}

@@ -1,0 +1,62 @@
+.common-tab{
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  box-shadow: 0px -2px 3px rgba(103, 103, 103, 0.2);
+  font-size: 12px;
+  &-ul{
+    display: flex;
+    justify-content: center;
+    background-color: #f7f7fa;
+    height: 50px;
+    & li{
+      display: block;
+      width: 25%;
+    }
+    & a{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+    & span{
+      width: 22px;
+      height: 22px;
+      display: block;
+    }
+    & p{
+      display: block;
+      width: 100%;
+      text-align: center;
+    }
+    .icon{
+      font:  22px iconfont;
+      color:  #a9a9a9;
+    }
+    .purchases:before{
+      content: '\e60f';
+    }
+    .sales:before{
+      content: '\e613';
+    }
+    .stock:before{
+      content: '\e611';
+    }
+    .search:before{
+      content: '\e608';
+    }
+    // 选中的状态
+    .active{
+      .icon{
+        color: #389bff;
+      }
+      & p{
+        color: #389bff;
+      }
+    }
+  }
+
+}
